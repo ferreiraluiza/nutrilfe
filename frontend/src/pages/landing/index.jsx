@@ -5,7 +5,7 @@ import axios from "axios";
 
 const App = () => {
     useEffect(() => {
-        console.log('App is running');
+        console.log('ta indo né');
     }, []);
 
     return (
