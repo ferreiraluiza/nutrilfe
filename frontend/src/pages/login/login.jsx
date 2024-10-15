@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Login.scss'; 
 
-const Login = () => {
+export default function Login(){
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
@@ -43,5 +43,3 @@ const Login = () => {
         </div>
     );
 };
-
-export default Login;
