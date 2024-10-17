@@ -6,8 +6,9 @@ export default function App() {
     <div className="App">
       <div className='cabecaralho'>
         <header>
-          <img src="./logo.png" alt="logozinha" />
-
+          <img src="./logo.png" alt="logozinha"  />
+          <div>
+            
           <button>Artigos</button>
           <button>Início</button>
           <button>Sobre</button>
@@ -15,6 +16,7 @@ export default function App() {
           <button>Ajuda</button>
 
           <button className='Login-button'>Login</button>
+          </div>
 
         </header>
       </div>
