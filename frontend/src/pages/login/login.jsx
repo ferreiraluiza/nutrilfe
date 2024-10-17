@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Login.scss'; 
+import './Login.scss';
 
-export default function Login(){
+export default function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 

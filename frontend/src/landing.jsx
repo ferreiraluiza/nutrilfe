@@ -18,7 +18,7 @@ export default function App() {
 
         </header>
       </div>
-      
+
       <section className='tela-1'>
         <h1>Bem-Vindo!</h1>
         <h3>A NUTRILIFE está pronta para atender você!</h3>
@@ -47,7 +47,33 @@ export default function App() {
         </div>
       </section>
 
+      <section className='tela-3'>
+        <h1>Transforme Sua Vida com Nutrição Saudável</h1>
 
+        <p>Agende sua consulta, exames, obtenha seus resultados e seja acompanhado em sua dieta personalizada </p>
+        <p>Acompanhe relatórios, com recomendações e sugestões</p>
+
+        <button>Agendar Consulta</button>
+      </section>
+
+<section className='tela-4'>
+  <h1>UM POUCO SOBRE MIM</h1>
+
+  <p>   Sou nutricionista formada pela Universidade de Harvard e mestre em Nutrição Esportiva pela Universidade de Oxford. Durante meus estudos, aprofundei meu conhecimento em nutrição clínica e esportiva, com foco em dietas personalizadas e desempenho atlético. Continuo me atualizando constantemente para oferecer o melhor suporte a meus clientes na busca por saúde e bem-estar.</p>
+
+  <img src="" alt="" />
+</section>
+
+<section className='tela-5'>
+
+  <h1>OBTENHA O LIVRO ESCRITO POR CRISTINA MIRANDA</h1>
+
+  <p>Baseado em Trabalho de Conclusão de Curso, editado e melhorado, Cristina Miranda disserta sobre o problema causado pelas redes sociais em relação as redes sociais, com suas dietas mirabolantes sem entender os conceitos base da nutrição. </p>
+
+  <button>Obter E-book</button>
+</section>
+
+<section>DUVIDAS FREQUENTES</section>
     </div>
   );
 }
