@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className='cabecaralho'>
         <header>
-          <img src="./logo.png" alt="logozinha"  />
+          <img src="./public/assets/images/logo.png" alt="logozinha"  />
           <div>
             
           <button>Artigos</button>
