@@ -6,16 +6,16 @@ export default function App() {
     <div className="App">
       <div className='cabecaralho'>
         <header>
-          <img src="./public/assets/images/logo.png" alt="logozinha"  />
-          <div>
-            
-          <button>Artigos</button>
-          <button>Início</button>
-          <button>Sobre</button>
-          <button>Contato</button>
-          <button>Ajuda</button>
+          <img src="./assets/images/logo.png" alt="logozinha" />
+          <div className='botoes'>
 
-          <button className='Login-button'>Login</button>
+            <button>Artigos</button>
+            <button>Início</button>
+            <button>Sobre</button>
+            <button>Contato</button>
+            <button>Ajuda</button>
+
+            <button className='Login-button'>Login</button>
           </div>
 
         </header>
@@ -58,24 +58,24 @@ export default function App() {
         <button>Agendar Consulta</button>
       </section>
 
-<section className='tela-4'>
-  <h1>UM POUCO SOBRE MIM</h1>
+      <section className='tela-4'>
+        <h1>UM POUCO SOBRE MIM</h1>
 
-  <p>   Sou nutricionista formada pela Universidade de Harvard e mestre em Nutrição Esportiva pela Universidade de Oxford. Durante meus estudos, aprofundei meu conhecimento em nutrição clínica e esportiva, com foco em dietas personalizadas e desempenho atlético. Continuo me atualizando constantemente para oferecer o melhor suporte a meus clientes na busca por saúde e bem-estar.</p>
+        <p>   Sou nutricionista formada pela Universidade de Harvard e mestre em Nutrição Esportiva pela Universidade de Oxford. Durante meus estudos, aprofundei meu conhecimento em nutrição clínica e esportiva, com foco em dietas personalizadas e desempenho atlético. Continuo me atualizando constantemente para oferecer o melhor suporte a meus clientes na busca por saúde e bem-estar.</p>
 
-  <img src="" alt="" />
-</section>
+        <img src="" alt="" />
+      </section>
 
-<section className='tela-5'>
+      <section className='tela-5'>
 
-  <h1>OBTENHA O LIVRO ESCRITO POR CRISTINA MIRANDA</h1>
+        <h1>OBTENHA O LIVRO ESCRITO POR CRISTINA MIRANDA</h1>
 
-  <p>Baseado em Trabalho de Conclusão de Curso, editado e melhorado, Cristina Miranda disserta sobre o problema causado pelas redes sociais em relação as redes sociais, com suas dietas mirabolantes sem entender os conceitos base da nutrição. </p>
+        <p>Baseado em Trabalho de Conclusão de Curso, editado e melhorado, Cristina Miranda disserta sobre o problema causado pelas redes sociais em relação as redes sociais, com suas dietas mirabolantes sem entender os conceitos base da nutrição. </p>
 
-  <button>Obter E-book</button>
-</section>
+        <button>Obter E-book</button>
+      </section>
 
-<section>DUVIDAS FREQUENTES</section>
+      <section>DUVIDAS FREQUENTES</section>
     </div>
   );
 }
