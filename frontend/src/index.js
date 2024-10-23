@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './landing.jsx';
 import Início from './pages/início/inicio.jsx';
-import Login from './pages/login/login.jsx';
+import Login from './compoents/login/login.jsx';
+import Header from './compoents/header/header.jsx';
 import Financeiro from './pages/financeiro/financeiro.jsx';
 import Agenda from './pages/agenda/agenda.jsx';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -13,11 +14,12 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
+      <Header />
         <Route path='/' element = {<App />}/>
-        <Route path='/pages/login/login.jsx' element = {<Login />}/>
-        <Route path='/pages/início/inicio.jsx' element = {<Início />}/>
-        <Route path='/pages/finaceiro/finaceiro.jsx' element = {<Financeiro />}/>
-        <Route path='/pages/agenda/agenda.jsx' element = {<Agenda />}/>
+        <Route path='./login' element = {<Login />}/>
+        <Route path='./início' element = {<Início />}/>
+        <Route path='./finaceiro' element = {<Financeiro />}/>
+        <Route path='./agenda' element = {<Agenda />}/>
 
       </Routes>
     </Router>

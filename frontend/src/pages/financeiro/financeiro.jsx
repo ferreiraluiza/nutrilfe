@@ -1,4 +1,4 @@
-import 'finaceiro.scss';
+import './financeiro.scss';
 
 export default function Financeiro(){
     return(

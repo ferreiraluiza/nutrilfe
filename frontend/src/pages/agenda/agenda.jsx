@@ -1,4 +1,4 @@
-import 'agenda.scss';
+import './agenda.scss';
 
 export default function Agenda(){
     return(
